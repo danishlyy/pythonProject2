@@ -146,4 +146,22 @@ if __name__ == '__main__':
     # 1-10的立方列表: [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
     print('1-10的立方列表:', cube)
     # 切片
-
+    players = ['zhangsan', 'lisi', 'wangwu', 'zhaoliu', 'qiba']
+    # ['zhangsan', 'lisi', 'wangwu']
+    print(players[0:3])
+    # ['lisi', 'wangwu', 'zhaoliu']
+    print(players[1:4])
+    # 没有指定第一个索引，Python将自动从列表开头开始
+    # ['zhangsan', 'lisi']
+    print(players[:2])
+    # 从指定位置开始，一直到结尾
+    # ['lisi', 'wangwu', 'zhaoliu', 'qiba']
+    print(players[1:])
+    # ['wangwu', 'zhaoliu', 'qiba']
+    print(players[-3:])
+    # 遍历切片
+    # Zhangsan
+    # Lisi
+    # Wangwu
+    for player in players[:3]:
+        print(player.title())
