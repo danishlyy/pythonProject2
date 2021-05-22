@@ -1,0 +1,4 @@
+i love programming.
+i think python is easy to deal with text.
+i also love finding meaning in large datasets.
+i love creating apps that can run in a browser.
