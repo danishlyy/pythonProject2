@@ -1,10 +1,12 @@
 import pygame
+from pygame.sprite import Sprite
 
 
 # 使用命令 pip3 install pygame
 class Ship():
     def __init__(self, ai_settings, screen):
         """初始化飞船并设置其初始位置"""
+        super().__init__()
         self.screen = screen
         self.ai_settings = ai_settings
         # 加载飞船图像并获取其外接矩形
